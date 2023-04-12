@@ -1,0 +1,196 @@
+body{
+  font-family:arial;
+}
+
+h2{
+  padding:0;
+  margin:0;
+}
+
+#search-container{
+  background:#fff;
+  position:fixed;
+  top:0;
+  left:0;
+  padding:10px;
+  border-bottom:1px solid gray;
+  width:100%;
+  background: lightgray;
+}
+
+#monsters-container{
+  padding-top:250px;
+}
+
+.monster{
+  border: 0px solid red;
+  margin-bottom: 1%;
+  padding: 1%;
+  clear:both;
+  background-color: #f3f3f3;
+}
+
+div.monster > p.p1 {
+  width: 195px; 
+  float: left;
+  border: 0px solid red;  
+}
+
+div.monster > p.p2 {
+  width: 500px; 
+  float: left;
+}
+div.monster > p.p2 > b {
+  font-size: 1.5em;
+}
+
+div.monster > p.p3 {
+  float: right;
+}
+
+.monster-info > img {
+  width: 150px;
+}
+
+#search{
+  padding:10px;
+  font-size:1.2em;
+  border:1px solid #000;
+}
+
+.ovp{
+  color:#7ab1c1;
+}
+.spo{
+  color:#b22e19;
+}
+.fpo{
+  color:#0000cc;
+}
+.grune{
+  color:#709430;
+}
+.neos{
+  color:#bb477f;
+}
+
+/*
+  img#oevp, img#spoe, img#fpoe, img#gruene, img#neos{
+  
+  }
+*/
+
+span.klub {
+   padding: 5px 0; 
+   float: left; 
+   margin-top: 20px;
+}
+
+i.bundesland {
+   color: #000;
+}
+
+img.ovp{
+  border-top: 4px solid #000000;
+  border-left: 4px solid #000000;
+  border-right: 4px solid #000000;
+  border-bottom: 10px solid #000000;
+  border: 10px solid #000000;
+}
+img.spo{
+  border-top: 4px solid #b22e19;
+  border-left: 4px solid #b22e19;
+  border-right: 4px solid #b22e19;
+  border-bottom: 10px solid #b22e19;
+  border: 10px solid #b22e19;
+}
+img.fpo{
+  border-top: 4px solid #0000cc;
+  border-left: 4px solid #0000cc;
+  border-right: 4px solid #0000cc;
+  border-bottom: 10px solid #0000cc;
+  border: 10px solid #0000cc;
+}
+img.grune{
+  border-top: 4px solid #709430;
+  border-left: 4px solid #709430;
+  border-right: 4px solid #709430;
+  border-bottom: 10px solid #709430;
+  border: 10px solid #709430;
+}
+img.neos{
+  border-top: 4px solid #bb477f;
+  border-left: 4px solid #bb477f;
+  border-right: 4px solid #bb477f;
+  border-bottom: 10px solid #bb477f;
+  border: 10px solid #bb477f;
+}
+
+
+button{
+  padding:10px;
+  margin:0;
+  background:#fff;
+  border:1px solid #000;
+  font-weight:900;
+  font-size:1.5em;
+}
+
+button.ovp{
+  background-color:#7ab1c1;
+  color:#fff;
+  width:14%;
+}
+button.spo{
+  background-color:#b22e19;
+  color:#fff;
+  width:14%;
+}
+button.fpo{
+  background-color:#0000cc;
+  color:#fff;
+  width:14%;
+}
+button.grune{
+  background-color:#709430;
+  color:#fff;
+  width:14%;
+}
+button.neos{
+  background-color:#bb477f;
+  color:#fff;
+  width:14%;
+}
+button.all{
+  width:14%;
+}
+button.none{
+  width:14%;
+}
+
+
+
+button:active{
+  background:#222;
+  color:#fff;
+}
+
+div.left{
+  float:left;
+  width:120px;
+  margin-right:1%;
+  /*
+    background-color: #c1c1c1;
+  */
+}
+div.right{
+  float:left;
+  width:75%;
+  /*
+    background-color: #c1c1c1;
+  */
+}
+
+p.link { float: right; }
+
+.clear { clear:both; }

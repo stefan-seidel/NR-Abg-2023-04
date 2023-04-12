@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>NR-Abgeordnete 2023</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="container">
+<div id="search-container">
+  <br>
+  <a href="https://docs.google.com/spreadsheets/d/1XFgMzo_pM8oPX8euImRhiUFKi0rAVXZ3mKvqu0UL8Bs/edit?usp=sharing">Google-Doc</a>
+  <br/><br />
+  <input id="search" type="text" placeholder="Search" text="" />
+  <br/><br />
+  <button class="ovp" value="ÖVP">ÖVP</button>
+  <button class="spo" value="SPÖ">SPÖ</button>
+  <button class="fpo" value="FPÖ">FPÖ</button>
+  <button class="grune" value="GRÜNE">GRÜNE</button>
+  <button class="neos" value="NEOS">NEOS</button>
+  <!--
+    <button class="all" value="All">All</button>
+    <button class="none" value="None">None</button>
+  //-->
+  <br /><br/><button class="showall" value="showall">Show All</button>
+  <!--
+    <button class="showbosses" value="showbosses">Show Bosses Only</button><button class="showminions" value="showminions">Show Minions Only</button>
+  //-->
+</div>
+
+
+<div id="monsters-container">
+  
+  <!--
+  <div>
+    <p class="monster-info"><b>Monster Name: <span>Weakness</span></b></p>
+  </div>
+
+
+
+<div class="monster">
+  <p class="monster-info p1">
+    <img src="img/nr-abg-2023/Bayr_Petra_MA_MLS.jpg" class="spo">
+  </p>
+  <p class="monster-info p2">
+    <b>Angerer Erwin 3</b> <i>Titel</i><br><span class="klub">FPO<i class="bundesland"> (G)</i></span>
+  </p>
+  <p class="link p3"><a href="#" target="_blank">www</a></p>
+  <div class="clear"></div>
+</div>
+
+  //-->
+
+
+
+
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Amesbauer_Hannes_Mag_BA.jpg"></p><p class="monster-info p2"><b>Amesbauer Hannes</b><i>, (Mag., BA)</i><br><span class="klub">FPÖ<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/51879" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Angerer_Erwin.jpg"></p><p class="monster-info p2"><b>Angerer Erwin</b><br><span class="klub">FPÖ<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/84060" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Baumgartner_Angela.jpg"></p><p class="monster-info p2"><b>Baumgartner Angela</b><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1974" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Bayr_Petra_MA_MLS.jpg"></p><p class="monster-info p2"><b>Bayr Petra</b><i>, (MA MLS)</i><br><span class="klub">SPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14835" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Becher_Ruth_Mag.jpg"></p><p class="monster-info p2"><b>Becher Ruth</b><i>, (Mag.)</i><br><span class="klub">SPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14836" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Belakowitsch_Dagmar_Dr.jpg"></p><p class="monster-info p2"><b>Belakowitsch Dagmar</b><i>, (Dr.)</i><br><span class="klub">FPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/35468" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Berlakovich_Nikolaus_Dipl-Ing.jpg"></p><p class="monster-info p2"><b>Berlakovich Nikolaus</b><i>, (Dipl.-Ing.)</i><br><span class="klub">ÖVP<i class="bundesland"> (B)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/52688" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Bernhard_Michael.jpg"></p><p class="monster-info p2"><b>Bernhard Michael</b><br><span class="klub">NEOS<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83124" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Blimlinger_Eva_Mag.jpg"></p><p class="monster-info p2"><b>Blimlinger Eva</b><i>, (Mag.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5649" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Brandstaetter_Helmut_Dr.jpg"></p><p class="monster-info p2"><b>Brandstätter Helmut</b><i>, (Dr.)</i><br><span class="klub">NEOS<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5682" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Brandstoetter_Henrike.jpg"></p><p class="monster-info p2"><b>Brandstötter Henrike</b><br><span class="klub">NEOS<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5683" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Brandweiner_Lukas.jpg"></p><p class="monster-info p2"><b>Brandweiner Lukas</b><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5438" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Brueckl_Hermann_MA.jpg"></p><p class="monster-info p2"><b>Brückl Hermann</b><i>, (MA)</i><br><span class="klub">FPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/61639" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Bures_Doris.jpg"></p><p class="monster-info p2"><b>Bures Doris</b><br><span class="klub">SPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/145" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Buerstmayr_Georg_Mag.jpg"></p><p class="monster-info p2"><b>Bürstmayr Georg</b><i>, (Mag.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/6501" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Deckenbacher_Romana_Mag.jpg"></p><p class="monster-info p2"><b>Deckenbacher Romana</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/6506" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Deimek_Gerhard_Dipl-Ing.jpg"></p><p class="monster-info p2"><b>Deimek Gerhard</b><i>, (Dipl.-Ing.)</i><br><span class="klub">FPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/51557" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Diesner-Wais_Martina.jpg"></p><p class="monster-info p2"><b>Diesner-Wais Martina</b><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/16218" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Disoski_Meri_Mag.jpg"></p><p class="monster-info p2"><b>Disoski Meri</b><i>, (Mag.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5650" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Doppelbauer_Karin_Dipl-Ing.jpg"></p><p class="monster-info p2"><b>Doppelbauer Karin</b><i>, (Dipl.-Ing.)</i><br><span class="klub">NEOS<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/91141" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Drobits_Christian_Mag.jpg"></p><p class="monster-info p2"><b>Drobits Christian</b><i>, (Mag.)</i><br><span class="klub">SPÖ<i class="bundesland"> (B)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5638" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Ecker_Cornelia.jpg"></p><p class="monster-info p2"><b>Ecker Cornelia</b><br><span class="klub">SPÖ<i class="bundesland"> (S)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83109" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Ecker_Rosa_MBA.jpg"></p><p class="monster-info p2"><b>Ecker Rosa</b><i>, (MBA)</i><br><span class="klub">FPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/87002" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Egger_Kurt_Mag_(FH).jpg"></p><p class="monster-info p2"><b>Egger Kurt</b><i>, (Mag. (FH))</i><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/20056" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Einwallner_Reinhold_Ing.jpg"></p><p class="monster-info p2"><b>Einwallner Reinhold</b><i>, (Ing.)</i><br><span class="klub">SPÖ<i class="bundesland"> (V)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/24257" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/El-Nagashi_Faika_Mag.jpg"></p><p class="monster-info p2"><b>El-Nagashi Faika</b><i>, (Mag.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5651" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Engelberg_Martin_Mag.jpg"></p><p class="monster-info p2"><b>Engelberg Martin</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1976" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Erasim_Melanie_MSc.jpg"></p><p class="monster-info p2"><b>Erasim Melanie</b><i>, (MSc)</i><br><span class="klub">SPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/30653" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Ernst-Dziedzic_Ewa_Dr.jpg"></p><p class="monster-info p2"><b>Ernst-Dziedzic Ewa</b><i>, (Dr.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/87146" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Essl_Franz_Leonhard.jpg"></p><p class="monster-info p2"><b>Eßl Franz Leonhard</b><br><span class="klub">ÖVP<i class="bundesland"> (S)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14755" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Feichtinger_Elisabeth_BEd_BEd.jpg"></p><p class="monster-info p2"><b>Feichtinger Elisabeth</b><i>, (BEd BEd)</i><br><span class="klub">SPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2189" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Fiedler_Fiona_BEd.jpg"></p><p class="monster-info p2"><b>Fiedler Fiona</b><i>, (BEd)</i><br><span class="klub">NEOS<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5684" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Fischer_Ulrike_Mag.jpg"></p><p class="monster-info p2"><b>Fischer Ulrike</b><i>, (Mag.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5652" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Fuchs_Hubert_MMag_DDr.jpg"></p><p class="monster-info p2"><b>Fuchs Hubert</b><i>, (MMag. DDr.)</i><br><span class="klub">FPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83127" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Fuerlinger_Klaus_Mag.jpg"></p><p class="monster-info p2"><b>Fürlinger Klaus</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/72999" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Fuerst_Susanne_Dr.jpg"></p><p class="monster-info p2"><b>Fürst Susanne</b><i>, (Dr.)</i><br><span class="klub">FPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1567" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Gahr_Hermann.jpg"></p><p class="monster-info p2"><b>Gahr Hermann</b><br><span class="klub">ÖVP<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/8209" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Gerstl_Wolfgang_Mag.jpg"></p><p class="monster-info p2"><b>Gerstl Wolfgang</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/67199" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Goedl_Ernst_Mag.jpg"></p><p class="monster-info p2"><b>Gödl Ernst</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83409" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Goetze_Elisabeth_Dr.jpg"></p><p class="monster-info p2"><b>Götze Elisabeth</b><i>, (Dr.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5654" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Graf_Martin_Mag_Dr.jpg"></p><p class="monster-info p2"><b>Graf Martin</b><i>, (Mag. Dr.)</i><br><span class="klub">FPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2834" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Graf_Tanja.jpg"></p><p class="monster-info p2"><b>Graf Tanja</b><br><span class="klub">ÖVP<i class="bundesland"> (S)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1977" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Grebien_Heike.jpg"></p><p class="monster-info p2"><b>Grebien Heike</b><br><span class="klub">GRÜNE<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/6504" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Greiner_Karin_Mag.jpg"></p><p class="monster-info p2"><b>Greiner Karin</b><i>, (Mag.)</i><br><span class="klub">SPÖ<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/80479" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Grossbauer_Maria.jpg"></p><p class="monster-info p2"><b>Großbauer Maria</b><br><span class="klub">ÖVP<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1978" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Gruenberg_Kira.jpg"></p><p class="monster-info p2"><b>Grünberg Kira</b><br><span class="klub">ÖVP<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1979" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Hafenecker_Christian_MA.jpg"></p><p class="monster-info p2"><b>Hafenecker Christian</b><i>, (MA)</i><br><span class="klub">FPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/78586" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Hamann_Sibylle_Mag.jpg"></p><p class="monster-info p2"><b>Hamann Sibylle</b><i>, (Mag.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5668" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Hammer_Lukas.jpg"></p><p class="monster-info p2"><b>Hammer Lukas</b><br><span class="klub">GRÜNE<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/65219" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Hammer_Michael_Mag.jpg"></p><p class="monster-info p2"><b>Hammer Michael</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/55227" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Hanger_Andreas_Mag.jpg"></p><p class="monster-info p2"><b>Hanger Andreas</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83148" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Haubner_Peter.jpg"></p><p class="monster-info p2"><b>Haubner Peter</b><br><span class="klub">ÖVP<i class="bundesland"> (S)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/12741" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Hauser_Gerald_Mag.jpg"></p><p class="monster-info p2"><b>Hauser Gerald</b><i>, (Mag.)</i><br><span class="klub">FPÖ<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/35515" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Hechenberger_Josef_Ing.jpg"></p><p class="monster-info p2"><b>Hechenberger Josef</b><i>, (Ing.)</i><br><span class="klub">ÖVP<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5623" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Heinisch-Hosek_Gabriele.jpg"></p><p class="monster-info p2"><b>Heinisch-Hosek Gabriele</b><br><span class="klub">SPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/8177" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Herbert_Werner.jpg"></p><p class="monster-info p2"><b>Herbert Werner</b><br><span class="klub">FPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/47187" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Herr_Julia_Elisabeth.jpg"></p><p class="monster-info p2"><b>Herr Julia Elisabeth</b><br><span class="klub">SPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5639" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Himmelbauer_Eva-Maria_BSc.jpg"></p><p class="monster-info p2"><b>Himmelbauer Eva-Maria</b><i>, (BSc)</i><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/72959" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Hintner_Hans_Stefan.jpg"></p><p class="monster-info p2"><b>Hintner Hans Stefan</b><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5624" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Hofer_Norbert_Ing.jpg"></p><p class="monster-info p2"><b>Hofer Norbert</b><i>, (Ing.)</i><br><span class="klub">FPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/35521" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Hofinger_Manfred_Ing.jpg"></p><p class="monster-info p2"><b>Hofinger Manfred</b><i>, (Ing.)</i><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83299" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Hoefinger_Johann.jpg"></p><p class="monster-info p2"><b>Höfinger Johann</b><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/16234" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Holzleitner_Eva_Maria_BSc.jpg"></p><p class="monster-info p2"><b>Holzleitner Eva Maria</b><i>, (BSc)</i><br><span class="klub">SPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2309" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Holzner_Andrea_Dipl-Ing.jpg"></p><p class="monster-info p2"><b>Holzner Andrea</b><i>, (Dipl.-Ing.)</i><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5010" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Hoerl_Franz.jpg"></p><p class="monster-info p2"><b>Hörl Franz</b><br><span class="klub">ÖVP<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/35489" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Hoyos-Trauttmansdorff_Douglas.jpg"></p><p class="monster-info p2"><b>Hoyos-Trauttmansdorff Douglas</b><br><span class="klub">NEOS<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2343" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Jachs_Johanna_Mag.jpg"></p><p class="monster-info p2"><b>Jachs Johanna</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1980" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Jeitler-Cincelli_Carmen_Mag_BA.jpg"></p><p class="monster-info p2"><b>Jeitler-Cincelli Carmen</b><i>, (Mag., BA)</i><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1981" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Kainz_Alois.jpg"></p><p class="monster-info p2"><b>Kainz Alois</b><br><span class="klub">FPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2998" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Kaniak_Gerhard_Mag.jpg"></p><p class="monster-info p2"><b>Kaniak Gerhard</b><i>, (Mag.)</i><br><span class="klub">FPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1970" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Kassegger_Axel_MMMag_Dr.jpg"></p><p class="monster-info p2"><b>Kassegger Axel</b><i>, (MMMag. Dr.)</i><br><span class="klub">FPÖ<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83129" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Kaufmann_Martina_MMSc_BA.jpg"></p><p class="monster-info p2"><b>Kaufmann Martina</b><i>, (MMSc BA)</i><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1983" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Keck_Dietmar.jpg"></p><p class="monster-info p2"><b>Keck Dietmar</b><br><span class="klub">SPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14840" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Kickl_Herbert.jpg"></p><p class="monster-info p2"><b>Kickl Herbert</b><br><span class="klub">FPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/35520" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Kirchbaumer_Rebecca.jpg"></p><p class="monster-info p2"><b>Kirchbaumer Rebecca</b><br><span class="klub">ÖVP<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1984" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Koechl_Klaus.jpg"></p><p class="monster-info p2"><b>Köchl Klaus</b><br><span class="klub">SPÖ<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5640" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Koellner_Maximilian_MA.jpg"></p><p class="monster-info p2"><b>Köllner Maximilian</b><i>, (MA)</i><br><span class="klub">SPÖ<i class="bundesland"> (B)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5641" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Kollross_Andreas.jpg"></p><p class="monster-info p2"><b>Kollross Andreas</b><br><span class="klub">SPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/18666" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Kopf_Karlheinz.jpg"></p><p class="monster-info p2"><b>Kopf Karlheinz</b><br><span class="klub">ÖVP<i class="bundesland"> (V)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2822" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Koza_Markus_Mag.jpg"></p><p class="monster-info p2"><b>Koza Markus</b><i>, (Mag.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5670" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Krainer_Kai_Jan.jpg"></p><p class="monster-info p2"><b>Krainer Kai Jan</b><br><span class="klub">SPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14842" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Krisper_Stephanie_Dr.jpg"></p><p class="monster-info p2"><b>Krisper Stephanie</b><i>, (Dr.)</i><br><span class="klub">NEOS<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2344" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Kucharowits_Katharina.jpg"></p><p class="monster-info p2"><b>Kucharowits Katharina</b><br><span class="klub">SPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/35908" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Kucher_Philip.jpg"></p><p class="monster-info p2"><b>Kucher Philip</b><br><span class="klub">SPÖ<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83113" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Kugler_Gudrun_Dr.jpg"></p><p class="monster-info p2"><b>Kugler Gudrun</b><i>, (Dr.)</i><br><span class="klub">ÖVP<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1986" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Kuehberger_Andreas.jpg"></p><p class="monster-info p2"><b>Kühberger Andreas</b><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1987" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Kuensberg_Sarre_Martina_Mag.jpg"></p><p class="monster-info p2"><b>Künsberg Sarre Martina</b><i>, (Mag.)</i><br><span class="klub">NEOS<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5685" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Kuntzl_Andrea_Mag.jpg"></p><p class="monster-info p2"><b>Kuntzl Andrea</b><i>, (Mag.)</i><br><span class="klub">SPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/8178" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Laimer_Robert.jpg"></p><p class="monster-info p2"><b>Laimer Robert</b><br><span class="klub">SPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2330" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Lausch_Christian.jpg"></p><p class="monster-info p2"><b>Lausch Christian</b><br><span class="klub">FPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/51568" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Leichtfried_Joerg_Mag.jpg"></p><p class="monster-info p2"><b>Leichtfried Jörg</b><i>, (Mag.)</i><br><span class="klub">SPÖ<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/22694" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Lercher_Maximilian.jpg"></p><p class="monster-info p2"><b>Lercher Maximilian</b><br><span class="klub">SPÖ<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5642" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Lindinger_Klaus_Ing_BSc.jpg"></p><p class="monster-info p2"><b>Lindinger Klaus</b><i>, (Ing., BSc)</i><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2001" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Lindner_Mario.jpg"></p><p class="monster-info p2"><b>Lindner Mario</b><br><span class="klub">SPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/86613" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Litschauer_Martin_Ing.jpg"></p><p class="monster-info p2"><b>Litschauer Martin</b><i>, (Ing.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5671" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Loacker_Gerald_Mag.jpg"></p><p class="monster-info p2"><b>Loacker Gerald</b><i>, (Mag.)</i><br><span class="klub">NEOS<i class="bundesland"> (V)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83121" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Lopatka_Reinhold_Dr.jpg"></p><p class="monster-info p2"><b>Lopatka Reinhold</b><i>, (Dr.)</i><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/15526" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Marchetti_Nico.jpg"></p><p class="monster-info p2"><b>Marchetti Nico</b><br><span class="klub">ÖVP<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2122" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Margreiter_Johannes_Dr.jpg"></p><p class="monster-info p2"><b>Margreiter Johannes</b><i>, (Dr.)</i><br><span class="klub">NEOS<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5686" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Matznetter_Christoph_Dr.jpg"></p><p class="monster-info p2"><b>Matznetter Christoph</b><i>, (Dr.)</i><br><span class="klub">SPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14844" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Maurer_Sigrid_BA.jpg"></p><p class="monster-info p2"><b>Maurer Sigrid</b><i>, (BA)</i><br><span class="klub">GRÜNE<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83101" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Meinl-Reisinger_Beate_Mag_MES.jpg"></p><p class="monster-info p2"><b>Meinl-Reisinger Beate</b><i>, (Mag., MES)</i><br><span class="klub">NEOS<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83122" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Melchior_Alexander.jpg"></p><p class="monster-info p2"><b>Melchior Alexander</b><br><span class="klub">ÖVP<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5625" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Minnich_Andreas.jpg"></p><p class="monster-info p2"><b>Minnich Andreas</b><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5626" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Muchitsch_Josef.jpg"></p><p class="monster-info p2"><b>Muchitsch Josef</b><br><span class="klub">SPÖ<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/35497" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Nessler_Barbara.jpg"></p><p class="monster-info p2"><b>Neßler Barbara</b><br><span class="klub">GRÜNE<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5672" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Neumann-Hartberger_Irene.jpg"></p><p class="monster-info p2"><b>Neumann-Hartberger Irene</b><br><span class="klub">ÖVP<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/6498" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Niss_Maria_Theresia_Mag_Dr_MBA.jpg"></p><p class="monster-info p2"><b>Niss Maria Theresia</b><i>, (Mag. Dr., MBA)</i><br><span class="klub">ÖVP<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2242" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Nussbaum_Verena_Mag.jpg"></p><p class="monster-info p2"><b>Nussbaum Verena</b><i>, (Mag.)</i><br><span class="klub">SPÖ<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2334" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Obernosterer_Gabriel.jpg"></p><p class="monster-info p2"><b>Obernosterer Gabriel</b><br><span class="klub">ÖVP<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/35487" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Oberrauner_Petra_Mag_Dr.jpg"></p><p class="monster-info p2"><b>Oberrauner Petra</b><i>, (Mag. Dr.)</i><br><span class="klub">SPÖ<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5643" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Ofenauer_Friedrich_Mag.jpg"></p><p class="monster-info p2"><b>Ofenauer Friedrich</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83300" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Ottenschlaeger_Andreas.jpg"></p><p class="monster-info p2"><b>Ottenschläger Andreas</b><br><span class="klub">ÖVP<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83150" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Oxonitsch_Christian.jpg"></p><p class="monster-info p2"><b>Oxonitsch Christian</b><br><span class="klub">SPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/23167" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Pfurtscheller_Elisabeth_Dipl-Kffr_(FH).jpg"></p><p class="monster-info p2"><b>Pfurtscheller Elisabeth</b><i>, (Dipl.-Kffr. (FH))</i><br><span class="klub">ÖVP<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83151" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Poettinger_Laurenz.jpg"></p><p class="monster-info p2"><b>Pöttinger Laurenz</b><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5486" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Prammer_Agnes_Sirkka_Mag.jpg"></p><p class="monster-info p2"><b>Prammer Agnes Sirkka</b><i>, (Mag.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/6502" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Prinz_Nikolaus.jpg"></p><p class="monster-info p2"><b>Prinz Nikolaus</b><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/8235" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Ragger_Christian_Mag.jpg"></p><p class="monster-info p2"><b>Ragger Christian</b><i>, (Mag.)</i><br><span class="klub">FPÖ<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1937" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Rauch_Walter.jpg"></p><p class="monster-info p2"><b>Rauch Walter</b><br><span class="klub">FPÖ<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83130" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Rausch_Bettina_Mag.jpg"></p><p class="monster-info p2"><b>Rausch Bettina</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14275" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Reifenberger_Volker_Ing_Mag.jpg"></p><p class="monster-info p2"><b>Reifenberger Volker</b><i>, (Ing. Mag.)</i><br><span class="klub">FPÖ<i class="bundesland"> (S)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/3717" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Reimon_Michel_MBA.jpg"></p><p class="monster-info p2"><b>Reimon Michel</b><i>, (MBA)</i><br><span class="klub">GRÜNE<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/84054" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Reiter_Carina.jpg"></p><p class="monster-info p2"><b>Reiter Carina</b><br><span class="klub">ÖVP<i class="bundesland"> (S)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5627" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Rendi-Wagner_Pamela_Dr_MSc.jpg"></p><p class="monster-info p2"><b>Rendi-Wagner Pamela</b><i>, (Dr., MSc)</i><br><span class="klub">SPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/91034" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Ribo_Bedrana_MA.jpg"></p><p class="monster-info p2"><b>Ribo Bedrana</b><i>, (MA)</i><br><span class="klub">GRÜNE<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5673" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Ries_Christian.jpg"></p><p class="monster-info p2"><b>Ries Christian</b><br><span class="klub">FPÖ<i class="bundesland"> (B)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2997" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Roessler_Astrid_Dr.jpg"></p><p class="monster-info p2"><b>Rössler Astrid</b><i>, (Dr.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (S)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5674" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Salzmann_Gertraud_MMMag.jpg"></p><p class="monster-info p2"><b>Salzmann Gertraud</b><i>, (MMMag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (S)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/3716" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Saxinger_Werner_Dr_MSc.jpg"></p><p class="monster-info p2"><b>Saxinger Werner</b><i>, (Dr., MSc)</i><br><span class="klub">ÖVP<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/7106" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Schallmeiner_Ralph.jpg"></p><p class="monster-info p2"><b>Schallmeiner Ralph</b><br><span class="klub">GRÜNE<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5676" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Scharzenberger_Corinna_Mag.jpg"></p><p class="monster-info p2"><b>Scharzenberger Corinna</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5629" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Schatz_Sabine.jpg"></p><p class="monster-info p2"><b>Schatz Sabine</b><br><span class="klub">SPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2337" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Scherak_Nikolaus_Dr_MA.jpg"></p><p class="monster-info p2"><b>Scherak Nikolaus</b><i>, (Dr., MA)</i><br><span class="klub">NEOS<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83125" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Scheucher-Pichler_Elisabeth_Mag.jpg"></p><p class="monster-info p2"><b>Scheucher-Pichler Elisabeth</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14896" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Schmidhofer_Karl.jpg"></p><p class="monster-info p2"><b>Schmidhofer Karl</b><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5138" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Schmiedlechner_Peter.jpg"></p><p class="monster-info p2"><b>Schmiedlechner Peter</b><br><span class="klub">FPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/1944" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Schmuckenschlager_Johannes.jpg"></p><p class="monster-info p2"><b>Schmuckenschlager Johannes</b><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/52727" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Schnabel_Joachim.jpg"></p><p class="monster-info p2"><b>Schnabel Joachim</b><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5630" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Schnedlitz_Michael.jpg"></p><p class="monster-info p2"><b>Schnedlitz Michael</b><br><span class="klub">FPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/64022" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Schrangl_Philipp_Mag.jpg"></p><p class="monster-info p2"><b>Schrangl Philipp</b><i>, (Mag.)</i><br><span class="klub">FPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83134" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Schroll_Alois.jpg"></p><p class="monster-info p2"><b>Schroll Alois</b><br><span class="klub">SPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5644" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Schwarz_Jakob_Mag_Dr_BA.jpg"></p><p class="monster-info p2"><b>Schwarz Jakob</b><i>, (Mag. Dr., BA)</i><br><span class="klub">GRÜNE<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5677" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Seemayer_Michael.jpg"></p><p class="monster-info p2"><b>Seemayer Michael</b><br><span class="klub">SPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5645" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Seidl_Julia_Mag.jpg"></p><p class="monster-info p2"><b>Seidl Julia</b><i>, (Mag.)</i><br><span class="klub">NEOS<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/19741" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Shetty_Yannick_Mag.jpg"></p><p class="monster-info p2"><b>Shetty Yannick</b><i>, (Mag.)</i><br><span class="klub">NEOS<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5687" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Sieber_Norbert.jpg"></p><p class="monster-info p2"><b>Sieber Norbert</b><br><span class="klub">ÖVP<i class="bundesland"> (V)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14769" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Silvan_Rudolf.jpg"></p><p class="monster-info p2"><b>Silvan Rudolf</b><br><span class="klub">SPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5646" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Singer_Johann.jpg"></p><p class="monster-info p2"><b>Singer Johann</b><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/51556" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Smodics-Neumann_Maria_Mag.jpg"></p><p class="monster-info p2"><b>Smodics-Neumann Maria</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/3133" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Smolle_Josef_Dr.jpg"></p><p class="monster-info p2"><b>Smolle Josef</b><i>, (Dr.)</i><br><span class="klub">ÖVP<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/3132" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Sobotka_Wolfgang_Mag.jpg"></p><p class="monster-info p2"><b>Sobotka Wolfgang</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/88386" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Spalt_Thomas.jpg"></p><p class="monster-info p2"><b>Spalt Thomas</b><br><span class="klub">FPÖ<i class="bundesland"> (V)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/22847" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Stammler_Clemens.jpg"></p><p class="monster-info p2"><b>Stammler Clemens</b><br><span class="klub">GRÜNE<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/6503" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Stark_Christoph.jpg"></p><p class="monster-info p2"><b>Stark Christoph</b><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2327" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Stefan_Harald_Mag.jpg"></p><p class="monster-info p2"><b>Stefan Harald</b><i>, (Mag.)</i><br><span class="klub">FPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/51571" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Steger_Petra.jpg"></p><p class="monster-info p2"><b>Steger Petra</b><br><span class="klub">FPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83135" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Steinacker_Michaela_Mag.jpg"></p><p class="monster-info p2"><b>Steinacker Michaela</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83059" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Stocker_Christian_Dr.jpg"></p><p class="monster-info p2"><b>Stocker Christian</b><i>, (Dr.)</i><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5439" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Stoeger_Alois.jpg"></p><p class="monster-info p2"><b>Stöger Alois</b><i>, (diplômé)</i><br><span class="klub">SPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/52687" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Stoegmueller_David.jpg"></p><p class="monster-info p2"><b>Stögmüller David</b><br><span class="klub">GRÜNE<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/87001" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="OK" src="img/nr-abg-2023/Strache_Pia_Philippa.jpg"></p><p class="monster-info p2"><b>Strache Pia Philippa</b><br><span class="klub">OK<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/44127" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Strasser_Georg_Dipl-Ing.jpg"></p><p class="monster-info p2"><b>Strasser Georg</b><i>, (Dipl.-Ing.)</i><br><span class="klub">ÖVP<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83153" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Tanda_Alexandra_Ing_Mag_(FH).jpg"></p><p class="monster-info p2"><b>Tanda Alexandra</b><i>, (Ing. Mag. (FH))</i><br><span class="klub">ÖVP<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/6505" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Tanzler_Petra.jpg"></p><p class="monster-info p2"><b>Tanzler Petra</b><br><span class="klub">SPÖ<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5647" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Taschner_Rudolf_Mag_Dr.jpg"></p><p class="monster-info p2"><b>Taschner Rudolf</b><i>, (Mag. Dr.)</i><br><span class="klub">ÖVP<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2329" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Tomaselli_Nina_Mag.jpg"></p><p class="monster-info p2"><b>Tomaselli Nina</b><i>, (Mag.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (V)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5678" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Totter_Agnes_MMag_Dr_BEd.jpg"></p><p class="monster-info p2"><b>Totter Agnes</b><i>, (MMag. Dr., BEd)</i><br><span class="klub">ÖVP<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5632" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Troch_Harald_Dr.jpg"></p><p class="monster-info p2"><b>Troch Harald</b><i>, (Dr.)</i><br><span class="klub">SPÖ<i class="bundesland"> (W)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83114" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Voglauer_Olga_Dipl-Ing.jpg"></p><p class="monster-info p2"><b>Voglauer Olga</b><i>, (Dipl.-Ing.)</i><br><span class="klub">GRÜNE<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5679" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Weber_Johann_Ing.jpg"></p><p class="monster-info p2"><b>Weber Johann</b><i>, (Ing.)</i><br><span class="klub">ÖVP<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5633" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Weidinger_Peter_Mag.jpg"></p><p class="monster-info p2"><b>Weidinger Peter</b><i>, (Mag.)</i><br><span class="klub">ÖVP<i class="bundesland"> (K)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2331" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Weratschnig_Hermann_MBA_MSc.jpg"></p><p class="monster-info p2"><b>Weratschnig Hermann</b><i>, (MBA MSc)</i><br><span class="klub">GRÜNE<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5680" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="neos" src="img/nr-abg-2023/Werner_Katharina_MMag_Bakk.jpg"></p><p class="monster-info p2"><b>Werner Katharina</b><i>, (MMag., Bakk.)</i><br><span class="klub">NEOS<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/20281" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Wimmer_Petra.jpg"></p><p class="monster-info p2"><b>Wimmer Petra</b><br><span class="klub">SPÖ<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2338" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Wimmer_Rainer.jpg"></p><p class="monster-info p2"><b>Wimmer Rainer</b><br><span class="klub">SPÖ<i class="bundesland"> (BWV)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2013" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Woeginger_August.jpg"></p><p class="monster-info p2"><b>Wöginger August</b><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/14795" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Wurm_Peter.jpg"></p><p class="monster-info p2"><b>Wurm Peter</b><br><span class="klub">FPÖ<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/83137" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="spo" src="img/nr-abg-2023/Yildirim_Selma_Mag.jpg"></p><p class="monster-info p2"><b>Yildirim Selma</b><i>, (Mag.)</i><br><span class="klub">SPÖ<i class="bundesland"> (T)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2339" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="fpo" src="img/nr-abg-2023/Zanger_Wolfgang.jpg"></p><p class="monster-info p2"><b>Zanger Wolfgang</b><br><span class="klub">FPÖ<i class="bundesland"> (St)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/35514" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Zarits_Christoph.jpg"></p><p class="monster-info p2"><b>Zarits Christoph</b><br><span class="klub">ÖVP<i class="bundesland"> (B)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/2332" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="ovp" src="img/nr-abg-2023/Zopf_Bettina.jpg"></p><p class="monster-info p2"><b>Zopf Bettina</b><br><span class="klub">ÖVP<i class="bundesland"> (O)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5634" target="_blank">www</a></p><div class="clear"></div></div>
+<div class="monster"><p class="monster-info p1"><img class="grune" src="img/nr-abg-2023/Zorba_Sueleyman.jpg"></p><p class="monster-info p2"><b>Zorba Süleyman</b><br><span class="klub">GRÜNE<i class="bundesland"> (N)</i></span></p><p class="link p3"><a href="https://www.parlament.gv.at/person/5681" target="_blank">www</a></p><div class="clear"></div></div>
+
+<!--
+
+<div class="monster"><div class="left"><img src="img/nr-abg-2023/Bayr_Petra_MA_MLS.jpg" width="120" id="spo"></div><div><p class="monster-info">Bayr Petra, MA MLS  <span>SPO</span></p></div><div class="clear"></div></div>
+
+  <div class="monster">
+    <div class="left"><img src="img/nr-abg-2023/Zanger_Wolfgang.jpg" width="120" id="fpo"></div>
+    <div><p class="monster-info">Zanger Wolfgang  <span>FPO</span></p></div><div class="clear"></div></div>
+
+
+  <div class="monster">
+    <p class="monster-info">Alcoholic Goblin: <span>None</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Behemoth: <span>Fire</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Camelia (sorcerer): <span>None</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Candle Nectar: <span>Ice</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Centaur: <span>Ice</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Cerberus: <span>Stone</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Cyclops: <span>None</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Doctor Ghoul: <span>Fire</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Dullahan: <span>Poison</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Dwarf: <span>Fire</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Electromagnetic Ghoul: <span>Stone</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Elven Queen: <span>Fire</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Fire Goblin: <span>Ice</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Flowering Kobald: <span>Fire</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Gargoyle: <span>Poison</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Ghoul: <span>None</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Goblin: <span>All</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Greedy Goblin: <span>Stone</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Griffin: <span>None</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Harpy: <span>Fire</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Hydra: <span>Fire</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Ice Goblin: <span>Thunder</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Ice Orc: <span>Thunder</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Illecebra (sorcerer): <span>None</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Illecebra (monster form): <span>All (varies during fight)</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Jack Frost: <span>Thunder</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Jack O Lantern: <span>Ice</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Kobald: <span>Thunder</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Kraken: <span>Thunder</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Leviathan: <span>Thunder</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Magusar (sorcerer): <span>None</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Minotaur: <span>Thunder</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Naked Kobald: <span>None</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Nectar: <span>None</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">New Money Ghoul: <span>Stone</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Ogre: <span>Ice</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Orc: <span>None</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Parasitic Nectar: <span>Fire</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Pegasus: <span>Thunder</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Phoenix: <span>Ice</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Poison Orc: <span>Fire</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Siren: <span>Thunder</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Slime (Avarice): <span>Fire</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Slime (Gluttony): <span>Fire</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Sortiara (sorcerer): <span>None</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Steel Goblin: <span>None</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Stone Goblin: <span>Poison</span></p>
+  </div>
+  <div class="monster">
+    <p class="monster-info">Toadstool Goblin: <span>Fire</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Unicorn: <span>Thunder</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Valkyrie: <span>Stone</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Vigo (sorcerer): <span>None</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Werewolf: <span>Ice</span></p>
+  </div>
+  <div class="monster boss">
+    <p class="monster-info">Wyvern: <span>None</span></p>
+  </div>
+
+//-->
+  
+</div>
+</div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<!-- partial -->
+  <script src="./jquery.min.js"></script><script src="./script.js"></script>
+
+</body>
+</html>
